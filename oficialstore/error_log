@@ -1,0 +1,16 @@
+[12-Oct-2020 22:42:36 UTC] PHP Notice:  Trying to get property of non-object in /home2/astrofis/public_html/create.php on line 17
+[12-Oct-2020 22:42:36 UTC] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: This value must be greater than or equal to 1. in /home2/astrofis/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:210 from API request 'req_tPedw9DUyJCfaX'
+Stack trace:
+#0 /home2/astrofis/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home2/astrofis/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home2/astrofis/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home2/astrofis/public_html/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(57): Stripe\ApiRequestor->request('post', '/v1/payment_int...', Array, Array)
+#4 /home2/astrofis/public_html/vendor/st in /home2/astrofis/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 210
+[13-Oct-2020 20:40:00 UTC] PHP Notice:  Trying to get property of non-object in /home2/astrofis/public_html/create.php on line 17
+[13-Oct-2020 20:40:01 UTC] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: This value must be greater than or equal to 1. in /home2/astrofis/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:210 from API request 'req_MkWlnMGPUI6XQi'
+Stack trace:
+#0 /home2/astrofis/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(173): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#1 /home2/astrofis/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(473): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#2 /home2/astrofis/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(126): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray))
+#3 /home2/astrofis/public_html/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(57): Stripe\ApiRequestor->request('post', '/v1/payment_int...', Array, Array)
+#4 /home2/astrofis/public_html/vendor/st in /home2/astrofis/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 210
