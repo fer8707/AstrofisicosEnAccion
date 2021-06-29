@@ -1,9 +1,9 @@
-# Accept a Card Payment
+# official page of Astrofísicos en Acción
 
-Build a simple checkout form to collect card details. Included are some basic build and run scripts you can use to start up the application.
+Official website of the scientific dissemination company Astrofísicos en Acción, a Mexican company founded by astrophysicists 
 
-## Running the sample
-
+## donations and e-commerce with stripe 
+<!-- 
 1. Build the server
 
 ```
@@ -16,4 +16,4 @@ composer install
 php -S 127.0.0.1:4242
 ```
 
-3. Go to [http://localhost:4242/checkout.html](http://localhost:4242/checkout.html)
+3. -->
